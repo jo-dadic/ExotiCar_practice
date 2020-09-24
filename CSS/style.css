@@ -171,6 +171,10 @@ body {
   line-height: 66px;
 }
 
+.main-nav li a:hover {
+  color: #ca0500;
+}
+
 /*------------MAIN STYLE-----------*/
 /*------------HEADER-----------*/
 
@@ -233,7 +237,9 @@ h1 {
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.articles > .wrapper:after {
+/*proučiti ovo: ovime smo članke i dijelove footera posložili jedne do drugih hmm*/
+.articles > .wrapper:after,
+.page-footer > .wrapper:after {
   content: ".";
   font-size: 0px;
   height: 1px;
@@ -283,4 +289,59 @@ h2::after {
 .text {
   font-weight: 300;
   margin-bottom: 60px;
+}
+
+/*------------FOOTER-----------*/
+
+.page-footer {
+  background: #111111;
+  padding-top: 25px;
+}
+
+.page-footer h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/*trik za dodati ravnu crtu ispod nečega, obavezno display: block;*/
+.page-footer h3:after {
+  content: ".";
+  font-size: 0px;
+  width: 90%;
+  height: 1px;
+  background: #292929;
+  display: block;
+  margin: 15px 0;
+}
+
+.page-footer li {
+  font-size: 13px;
+  color: #999;
+  line-height: 1.6;
+}
+
+.footer-col {
+  width: 25%;
+  float: left;
+}
+
+.copy {
+  color: #585858;
+  padding-top: 32px;
+}
+
+.social a {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 44px;
+}
+
+/*stavili smo inline-block kako bismo složili ikonice u red*/
+.social li {
+  display: inline-block;
 }
