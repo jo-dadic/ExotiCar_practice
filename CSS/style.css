@@ -217,6 +217,11 @@ h1 {
   margin: 0 auto;
 }
 
+.learn-more:hover {
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  border: 1px solid red;
+}
+
 /*------------ARTICLES-----------*/
 .articles {
   background: #ffffff; /* Old browsers */
@@ -320,6 +325,11 @@ h2::after {
   line-height: 1.6;
 }
 
+.page-footer li:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
 .footer-col {
   width: 25%;
   float: left;
@@ -339,6 +349,11 @@ h2::after {
   color: #fff;
   text-align: center;
   line-height: 44px;
+}
+
+.social a:hover {
+  background: #fff;
+  color: #ca0500;
 }
 
 /*stavili smo inline-block kako bismo složili ikonice u red*/
