@@ -134,6 +134,7 @@ body {
 }
 
 .wrapper {
+  display: block;
   width: 1120px;
   height: 100%;
   margin: 0 auto;
@@ -337,7 +338,6 @@ h2::after {
 
 .copy {
   color: #585858;
-  padding-top: 32px;
 }
 
 .social a {
