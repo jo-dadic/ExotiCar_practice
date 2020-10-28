@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deply": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jo-dadic/ExotiCar_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://jo-dadic.github.io/ExotiCar_practice",
+  "bugs": {
+    "url": "https://github.com/jo-dadic/ExotiCar_practice/issues"
+  },
+  "homepage": "https://github.com/jo-dadic/ExotiCar_practice#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

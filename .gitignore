@@ -1,3 +1,4 @@
-/webfonts
-/Mockup
-/fontawesome-free-5.14.0-web
+node_modules
+fontawesome-free-5.14.0-web
+Mockup
+webfonts
